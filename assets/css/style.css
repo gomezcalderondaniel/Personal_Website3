@@ -1,0 +1,286 @@
+body {
+    /* background: bisque url("https://via.placeholder.com/300x300") no-repeat right top; */
+    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/gravel.png);
+    width: 100%;
+
+}
+
+.links {
+    padding-right: 15%;
+    /* padding-bottom: 15px;     */
+}
+
+
+
+.tab-bar {
+    background-color: whitesmoke;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    /* margin-left: 15%; */
+    /* position: fixed;    */
+    height: 60px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    position: fixed;
+    top: 0;
+    /* right: 0; */
+
+
+
+}
+
+textarea {
+    height: 250px;
+    max-width: 100%;
+    resize: none;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-weight: bolder;
+
+}
+
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#name {
+    float: left;
+    height: 10px;
+    margin-left: 15%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+}
+
+#name:hover {
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#contact_tab {
+
+    float: right;
+    width: 100px;
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+a {
+    font-weight: bolder;
+}
+
+#contact_tab:hover,
+#portfolio_tab:hover,
+#about_tab:hover {
+    color: white;
+    background-color: #4aaaa5;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#portfolio_tab {
+
+    margin-top: 25px;
+    float: right;
+    width: 100px;
+    text-align: center;
+    border-left: solid darkgray;
+    border-right: solid darkgray;
+    border-width: 1px;
+}
+
+
+#about_tab {
+
+    margin-top: 25px;
+    float: right;
+    width: 100px;
+    text-align: center;
+}
+
+h1 {
+    color: white;
+    background-color: #4aaaa5;
+    width: 200px;
+    text-align: center;
+    height: 40px;
+    padding-top: 10px;
+    /* margin-left: 25%; */
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+h2 {
+    float: right;
+}
+
+h4 {
+    border-color: solid green;
+    /* width: 100%; */
+    /* margin-bottom: 10px; */
+    margin: 200px 0 0 0;
+    padding: 10px 121px;
+    position: absolute;
+    background-color: teal;
+    color: white;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+
+nav {
+    padding-left: 15%;
+    padding-right: 15%;
+
+
+
+}
+
+.content {
+    overflow: hidden;
+    /* height: 100%; */
+    background-color: white;
+    min-height: 500px;
+    width: 100%;
+    /* margin: 20px 30% 20px 15%; */
+    margin-top: 80px;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.fill-ins {
+    padding-right: 10px;
+}
+
+.container {
+
+    /* background-color: white; */
+    height: 500px;
+    width: 100%;
+    margin-right: 75%;
+    margin-left: 33%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+    box-sizing: border-box;
+
+}
+
+
+p {
+    padding: 20px 0px 0px 0px;
+    line-height: 25px;
+    text-align: justify;
+}
+
+
+.image {
+    float: left;
+    padding: 20px 20px 10px 0px;
+    /* border: round;  */
+    /* border-radius: 10px; */
+    /* box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24); */
+    /* margin: auto; */
+
+}
+
+.p_image {
+
+    float: left;
+    padding: 20px 20px 10px 0px;
+    width: auto;
+}
+
+.image1,
+.image2,
+.image3 {
+    float: left;
+    padding: 20px 20px 10px 0px;
+    margin: auto;
+
+}
+
+#page_name {
+
+    padding-bottom: 20px;
+    color: #4aaaa5;
+    font-size: 50px;
+    border-bottom: solid gray;
+}
+
+
+
+
+#contact {
+    width: 100%;
+
+}
+
+form {
+    margin-left: 15%;
+    padding-right: 15%;
+}
+
+.main {
+    width: 100%;
+}
+
+input,
+textarea {
+    width: 100%;
+}
+
+
+fieldset {
+
+    width: 100%;
+    padding: 5px;
+    padding-top: 20px;
+    margin-right: 0px;
+}
+
+#contact-submit {
+    background: teal;
+    color: white;
+}
+
+footer {
+    background-color: darkgray;
+    width: 100%;
+    text-align: center;
+    height: 60px;
+    padding-top: 30px;
+    margin-top: 60px;
+    font-weight: bolder;
+
+    border-top: 8px solid #4aaaa5;
+
+    position: -webkit-sticky;
+    /* position: fixed; */
+
+    /* top: 0; */
+    /* padding: 5px; */
+    /* background-color: #cae8ca; */
+    /* border: 2px solid #4CAF50; */
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+#circle-shape-example { 
+  font-family: Open Sans, sans-serif; 
+  margin: 2rem; 
+}
+
+.curve { 
+  width: 33%; height: auto;
+  min-width: 150px;
+  float: left;
+  margin-right:2rem; 
+  border-radius: 50%;
+  -webkit-shape-outside:circle();
+  shape-outside:circle();
+}
